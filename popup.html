@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Video Keys</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="head">
+      <h1 class="title">Video<span>Keys</span></h1>
+      <p class="status" id="status">Verificando esta aba…</p>
+    </header>
+
+    <div class="form">
+      <input
+        id="input"
+        class="input"
+        type="text"
+        placeholder="app.rocketseat.com.br"
+        autocomplete="off"
+        autocapitalize="off"
+        spellcheck="false"
+      />
+      <button id="add" class="key key--go">Adicionar</button>
+    </div>
+
+    <button id="current" class="key key--ghost">Liberar o site desta aba</button>
+
+    <p class="erro" id="erro" hidden></p>
+
+    <ul class="list" id="list"></ul>
+
+    <p class="hint">
+      Cada site da lista cobre os subdomínios dele.
+      <code>rocketseat.com.br</code> já vale para <code>app.rocketseat.com.br</code>.
+    </p>
+
+    <script src="shared.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

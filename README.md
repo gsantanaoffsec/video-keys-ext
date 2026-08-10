@@ -1,3 +1,8 @@
+
+OBSERVAÇÃO: FEITO 100% COM O CLAUDE CODE PARA SOLUCIONAR PROBLEMAS EM PLAYERS DE VÍDEO!
+
+---
+
 # Video Keys
 
 Atalhos de teclado no estilo YouTube para players de vídeo que ignoram o teclado.
